@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shravani</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo 180x180 white.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo 32x32 white.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo 16x16 white.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+<body id="top">
+
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/Asset 3.png" alt="Homepage">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">    
+                    <ul class="s-header__menu-links">
+                        <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
+                        <li><a class="smoothscroll" href="#about">About</a></li>
+                        <li><a class="smoothscroll" href="#works">Works</a></li>
+                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+
+
+        <!-- # intro
+        ================================================== -->
+        <section id="intro" class="s-intro target-section">
+
+            <div class="row s-intro__content width-sixteen-col">
+                <div class="column lg-12 s-intro__content-inner grid-block grid-16">
+                    
+                    <div class="s-intro__content-text">
+
+                        <div class="s-intro__content-pretitle text-pretitle">Hello</div>
+                        <h1 class="s-intro__content-title">
+                        I'm Shravani Devke <br>
+                        passionate about <br>
+                        design and aesthetics.
+                        </h1>                            
+
+                        <div class="s-intro__content-btns">
+                            <a class="smoothscroll btn" href="#about">More About Me</a>
+                            <a class="smoothscroll btn btn--stroke" href="#works">My Works</a>
+                        </div> <!-- s-intro__content-btns -->   
+
+                    </div> <!-- s-intro__content-text -->                     
+                    
+                </div> <!-- s-intro__content-inner -->  
+            </div> <!-- s-intro__content -->
+
+            <ul class="s-intro__social social-list">
+                <li>
+                    <a href="https://www.linkedin.com/in/shravani-devke-1b35b4239/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M4.98 3.5c0 1.09-.87 1.97-1.97 1.97C1.87 5.47 1 4.59 1 3.5 1 2.41 1.87 1.5 2.98 1.5c1.1 0 1.97.88 1.97 2zM1 20.5V8.75h3.5v11.75H1zM7.38 8.75h3.5v1.88h-.03c.49-.92 1.69-1.88 3.48-1.88 3.72 0 4.4 2.46 4.4 5.64v6.03H15v-5.43c0-1.29-.02-2.94-1.78-2.94-1.79 0-2.06 1.41-2.06 2.87v5.5h-3.5V8.75z"></path></svg>
+                        <span class="u-screen-reader-text">LinkedIn</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/shravanii__d/profilecard/?igsh=cW1rOTVkNHdxYTdh" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+                            <path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path>
+                            <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                            <path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path>
+                        </svg>
+                        <span class="u-screen-reader-text">Instagram</span>
+                    </a>
+                </li>
+               
+                
+                <li>
+                    <a href="https://github.com/devkeshravani" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.16 6.84 9.47.5.09.68-.22.68-.49v-1.74c-2.76.6-3.34-1.33-3.34-1.33-.45-1.14-1.1-1.45-1.1-1.45-.91-.62.07-.61.07-.61.99.07 1.52 1.01 1.52 1.01 1.12 1.91 2.94 1.36 3.66 1.04 0.11-.81.43-1.36.78-1.67-2.14-.25-4.38-1.07-4.38-4.75 0-1.05.37-1.92.98-2.59-.1-.26-.43-1.27.09-2.64 0 0 .8-.26 2.63 1.01.76-.21 1.57-.31 2.38-.31 0.81 0 1.62.1 2.38.31 1.83-1.27 2.63-1.01 2.63-1.01.52 1.37.2 2.38.09 2.64.61.67.98 1.54.98 2.59 0 3.69-2.24 4.49-4.38 4.75.45.39.84 1.14.84 2.29v3.41c0 .27.18.58.69.48 3.97-1.31 6.84-5.04 6.84-9.47 0-5.52-4.48-10-10-10z"></path></svg>
+                        <span class="u-screen-reader-text">GitHub</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://pin.it/1c5B4LeHn" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.99 2C6.472 2 2 6.473 2 11.99c0 4.232 2.633 7.85 6.35 9.306-.088-.79-.166-2.006.034-2.868.182-.78 1.172-4.966 1.172-4.966s-.299-.599-.299-1.484c0-1.388.805-2.425 1.808-2.425.853 0 1.264.64 1.264 1.407 0 .858-.546 2.139-.827 3.327-.235.994.499 1.805 1.479 1.805 1.775 0 3.141-1.872 3.141-4.575 0-2.392-1.719-4.064-4.173-4.064-2.843 0-4.512 2.132-4.512 4.335 0 .858.331 1.779.744 2.28a.3.3 0 0 1 .069.286c-.076.315-.245.994-.277 1.133-.044.183-.145.222-.335.134-1.247-.581-2.027-2.405-2.027-3.871 0-3.151 2.289-6.045 6.601-6.045 3.466 0 6.159 2.469 6.159 5.77 0 3.444-2.171 6.213-5.184 6.213-1.013 0-1.964-.525-2.29-1.146l-.623 2.374c-.225.868-.834 1.956-1.241 2.62a10 10 0 0 0 2.958.445c5.517 0 9.99-4.473 9.99-9.99S17.507 2 11.99 2"></path></svg>
+                        <span class="u-screen-reader-text">Pinterest</span>
+                    </a>
+                </li>
+            </ul> <!-- end s-intro__social -->
+
+            <div class="s-intro__content-media">                               
+                <img src="images/my_pic4.jpg" srcset="images/my_pic4.jpg 1x, images/my_pic4.jpg 2x" alt="">
+            </div> <!-- s-intro__content-media -->                
+
+            <div class="s-intro__btn-download">
+                <a class="btn btn--stroke" href="assets/cv.pdf" target="_blank">Get My CV</a>
+            </div> <!-- end s-intro__btn-download -->
+            
+            <div class="s-intro__scroll-down">
+                <a href="#about" class="smoothscroll">
+                    <div class="scroll-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"></path></svg>
+                    </div>
+                    <span class="scroll-text u-screen-reader-text">Scroll Down</span>
+                </a>
+            </div> <!-- s-intro__scroll-down -->
+
+        </section> <!-- end s-intro -->
+
+
+        <!-- # about
+        ================================================== -->
+        <section id="about" class="s-about target-section">
+
+            <div class="row s-about__content">
+                <div class="column xl-12">    
+                    
+                    <div class="section-header" data-num="01">
+                        <h2 class="text-display-title">About Me.</h2>
+                    </div> <!-- end section-header -->
+
+                    <p class="attention-getter">
+                        I’m driven by the idea of creating experiences that seamlessly connect people and technology. With a background in Computer Science and Business Systems, I bring together analytical thinking and a creative mindset to design solutions that are both functional and visually compelling.
+
+                    </p>
+
+                    <p class="attention-getter">
+                        I specialize in crafting user-centered digital experiences, combining aesthetics with functionality through UI/UX design, visual storytelling, and creative direction. My approach is rooted in empathy and a meticulous attention to detail, ensuring every design decision aligns with the user’s needs and goals.
+
+                    </p>
+                    <p class="attention-getter">
+                        For me, design isn’t just about aesthetics—it’s about solving problems, evoking emotions, and building meaningful connections that leave a lasting impact.
+
+                    </p>
+
+                    <div class="grid-list-items s-about__blocks">
+
+                        <div class="grid-list-items__item s-about__block">
+
+                            <h4 class="s-about__block-title">Experience</h4>
+                            <ul class="s-about__list">
+                        <li>
+                                Head of PR Photography Team 
+                <span><a href="https://www.instagram.com/stme.nmims?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="  class="s-about__link" target="_blank">STME NMIMS</a></span>
+                <div class="s-about__description">
+                    Directed and managed a team to create visually engaging reels and posts, ensuring all content aligned with the college's branding.
+                    <br>Developed creative concepts and implemented ideas for campaigns, providing clear instructions and fostering a collaborative environment.
+                </div>
+            </li>
+            <li>
+                Creative Designer 
+                <span><a href="https://www.instagram.com/netra_campaign?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="  class="s-about__link" target="_blank">NETRA Glaucoma Awareness Campaign</a></span>
+                <div class="s-about__description">
+
+                    Designed Instagram posts, banners, and standees for a successful on-campus campaign, combining visually appealing designs with clear messaging to engage students and staff.
+
+                </div>
+            </li>
+            <!-- <li>
+
+                UI/UX Designer
+                <span><a href="https://devkeshravani.wixsite.com/website"  class="s-about__link" target="_blank">Skillswap Project</a></span>
+                <div class="s-about__description">
+                    Created a user-friendly platform prototype using Figma and Wix, focusing on intuitive navigation and visual consistency.
+                    <br>Applied skills in wireframing, prototyping, and visual design to ensure an impactful and seamless user experience.
+                </div>
+            </li> -->
+            <li>
+
+                Digital Media Head
+                <span><a href="https://www.instagram.com/ecell_nmims_navi_mumbai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="  class="s-about__link" target="_blank">E-Cell NMIMS</a></span>
+                <div class="s-about__description">
+                    Created a user-friendly platform prototype using Figma and Wix, focusing on intuitive navigation and visual consistency.
+                    <br>Applied skills in wireframing, prototyping, and visual design to ensure an impactful and seamless user experience.
+                </div>
+            </li>
+                                <!-- <li>
+                                    Microsoft
+                                    <span>UI Designer</span>
+                                </li> --> 
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Certificates</h4>
+                        
+                            <ul class="s-about__list">
+                                <li>
+                                    <a href="https://api.growthschool.io/certificate/4043b4f3-6816-46c1-9171-87dda3906792" target="_blank">
+                                        UX Workshop B58  
+                                        <span>Growth School</span>
+                                        <span class="tooltip">Successfully completed a workshop on UX fundamentals and practical design techniques.</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://coursera.org/verify/CUVQGQASFNKB" target="_blank">
+                                        Designing a Low Fidelity Prototype in Figma  
+                                        <span>Coursera</span>
+                                        <span class="tooltip"> Gained skills in creating low-fidelity prototypes using Figma as part of an online project.</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://coursera.org/verify/78726Q3QVXVN" target="_blank">
+                                        Car Transport App in Figma  
+                                        <span>Coursera</span>
+                                        <span class="tooltip">Completed a UI/UX project focused on designing an app prototype in Figma.</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./assets/Certificate/Hackx certificate.pdf" target="_blank">
+                                        HackX: Find Your Hack!  
+                                        <span>UnStop</span>
+                                        <span class="tooltip">Winner of the offline coding round of HackX, showcasing problem-solving and coding excellence.</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://verify.mygreatlearning.com/IEJLIBAK" target="_blank">
+                                        UI / UX for Beginners 
+                                        <span>Great Learning</span>
+                                        <span class="tooltip">Completed a comprehensive course on UI/UX design principles and practices.</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://verify.mygreatlearning.com/PAEINPMI" target="_blank">
+                                        Intro to Graphic Design with Photoshop  
+                                        <span>Great Learning</span>
+                                        <span class="tooltip">Great Learning — Successfully gained knowledge of using Photoshop.</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+                        
+                        
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Skills</h4>
+
+                            <ul class="s-about__list">
+                                <li>User Research</li>
+                                <li>
+                                    Design Thinking
+                                </li>
+                                <li>
+                                    Accessibility Design
+                                </li>
+                                <li>
+                                    Wireframing & Prototyping
+                                </li>
+                                <li>
+                                    Frontend Development
+                                </li>
+                                <li>
+                                    Visual & Interaction Design
+                                </li>
+                                <li>
+                                    Usability Testing
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                    </div> <!-- grid-list-items -->
+
+                </div> <!--end column -->
+            </div> <!--end s-about__content -->
+            
+        </section> <!-- end s-about -->   
+
+
+        <!-- Research Publications Section -->
+<section id="research" class="s-research target-section">
+   <div class="row s-about__content">
+                <div class="column xl-12">    
+                    
+                    <div class="section-header" data-num="02">
+                        <h2 class="text-display-title">Research Publications.</h2>
+                    </div> <!-- end section-header -->
+
+    <div class="row block-1-1 block-m-1-1 block-tab-full" data-aos="fade-up">
+        <div class="col-block item-process">
+            <div class="item-process__text">
+                <h3 class="item-title">Time Series Transformer for EEG-Based Human Emotion Recognition</h3>
+                <p><strong>Authors:</strong> Shrushti Samant, Shashank Jain, <b>Shravani Devke</b>, Sakshi Indolia</p>
+                <p>
+                    This research explores deep learning frameworks (CNN, BiLSTM, and Transformer) for emotion recognition using EEG signals. 
+                    Our Transformer-based model achieved <b>99.07% accuracy</b>, outperforming other approaches in capturing spatial and temporal dependencies in EEG data.
+                </p>
+                <a href="./assets/Time Series Transformer for EEG Based Human Emotion Recognition.pdf" target="_blank" class="btn btn--stroke">
+                    Read Full Paper
+                </a>
+            </div>
+        </div>
+    </div>
+</section> <!-- end research -->
+
+
+        <!-- # works
+        ================================================== -->
+        <section id="works" class="s-works target-section">
+
+            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="03">
+                        <h2 class="text-display-title">My Works.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row folio-entries">
+
+
+
+                <div class="column entry">
+                    <a href="./images/my works images/epicgames_v4.png" class="entry__link glightbox" data-glightbox="title: EPIC Games; description: .entry__desc-02">
+                        <div class="entry__thumb">
+                            <img src="./images/my works images/epicgames_v2.jpg" 
+                                 srcset="./images/my works images/EpicGames_v2.png 1x, ./images/my works images/EpicGames_v2@2x.png 2x" 
+                                 alt="EPIC Games">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">EPIC Games</h4>
+                            <div class="entry__cat">Game Store Website</div>
+                        </div>
+                    </a>
+                
+                    <div class="glightbox-desc entry__desc-02">
+                        <p>
+                            EPIC Games is a digital platform for game distribution, offering an engaging homepage with dynamic banners, curated game recommendations, and seamless navigation to individual game pages. The store page allows users to browse and search for games effortlessly, making it an ideal destination for gaming enthusiasts.
+                        <a href="https://devkeshravani.github.io/EPIC-Games-MWA-Project/" target="_blank">Project Link</a>.
+                        </p>    
+                    </div>
+                    
+                </div> <!-- entry -->
+                
+
+                <div class="column entry">
+                    <a href="./images/my works images/SkillSwap_v4.png" class="entry__link glightbox" data-glightbox="title: SkillSwap; description: .entry__desc-03">
+                        <div class="entry__thumb">
+                            <img src="./images/my works images/SkillSwap_v3.png" srcset="./images/my works images/SkillSwap_v2.png 1x, ./images/my works images/SkillSwap_v2.png 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">SkillSwap</h4>
+                            <div class="entry__cat">Skill Sharing Website</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-03">
+                        <p>
+                        An innovative online platform designed for skill exchange, where individuals can teach and learn a wide range of skills. SkillSwap connects users with various expertise and interests, allowing them to offer their knowledge and find others eager to learn. The website features dynamic user profiles, enabling individuals to showcase their skills and explore offerings from others. With an intuitive search function, users can easily find relevant skills to learn or offer. SkillSwap fosters a collaborative environment for personal and professional growth, making it a go-to destination for anyone looking to share their expertise or gain new skills, all through seamless interactions and an engaging community-driven experience.
+                        <a href="https://devkeshravani.wixsite.com/website" target="_blank">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/my works images/HauteCouture_v3.jpg" class="entry__link glightbox" data-glightbox="title: Haute Couture; description: .entry__desc-04">
+                        <div class="entry__thumb">
+                            <img src="images/my works images/HauteCouture_v2.jpg" srcset="images/my works images/HauteCouture_v2.jpg 1x, images/my works images/HauteCouture_v2.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Haute Couture</h4>
+                            <div class="entry__cat">A Concept Mobile Fashion E-commerce Platform</div>
+                        </div>
+                    </a>
+                    <div class="glightbox-desc entry__desc-04">
+                        <p>
+                            A mobile-optimized fashion e-commerce prototype showcasing a luxurious and modern online shopping experience. The platform offers a seamless browsing experience, allowing users to explore high-end fashion pieces with ease.
+                           <br> <a href="https://www.figma.com/proto/ByGFJqeiXsvlv8Q776UoMj/Haute-Couture?node-id=418-616&t=XU94oqGJyJrtVf3C-1" target="_blank">Prototype Link</a>.
+                            <br>
+                            <a href="https://www.figma.com/design/ByGFJqeiXsvlv8Q776UoMj/Haute-Couture?node-id=418-616&t=BqFhs7NAPJ6bhSL4-1" target="_blank">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                
+
+                
+
+                <div class="column entry">
+                    <a href="images/my works images/Spotify_v3.jpg" class="entry__link glightbox" data-glightbox="title: Spotify Redesign; description: .entry__desc-05">
+                        <div class="entry__thumb">
+                            <img src="images/my works images/Spotify_v2.jpg" srcset="images/my works images/Spotify_v2.png 1x, images/my works images/Spotify_v2.png 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Spotify Redesign</h4>
+                            <div class="entry__cat">A Sleek and Intuitive Music Platform</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-05">
+                        <p>
+                            A modern and intuitive redesign of Spotify, focusing on improved usability and aesthetics. Features include enhanced playlist organization, personalized recommendations, and a sleek, vibrant interface for a seamless music discovery experience.
+                           <br> <a href="https://www.figma.com/proto/WYphTeBNsptVn35FRgPr68/Spotify-Redesign-by-Shravani-Devke?node-id=27-107&t=7JOPadsbmF6vOBFA-1&scaling=contain&content-scaling=fixed&page-id=0%3A1" target="_blank">Prototype Link</a>.
+                            <br>
+                            <a href="https://www.figma.com/design/WYphTeBNsptVn35FRgPr68/Spotify-Redesign-by-Shravani-Devke?node-id=27-107&t=jyNVM6erH3Aa3CT6-1" target="_blank">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+
+                <div class="column entry">
+                    <a href="images/my works images/Amazon_v2.png" class="entry__link glightbox" data-glightbox="title: Amazon Redesign; description: .entry__desc-06">
+                        <div class="entry__thumb">
+                            <img src="images/my works images/Amazon_v3.jpg" srcset="images/my works images/Amazon_v3.jpg 1x, images/my works images/Amazon_v3.jpg 2x" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Amazon Redesign</h4>
+                            <div class="entry__cat">A Modern Approach to Online Shopping</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-06">
+                        <p>
+                            A reimagined design of Amazon's e-commerce platform, focusing on enhanced usability, modern aesthetics, and a seamless shopping experience. This redesign introduces a cleaner layout, improved navigation, and personalized features, making it easier for users to explore products and complete purchases effortlessly. The updated interface aligns with contemporary design trends while maintaining the platform's reliability and functionality.
+                        <br> <a href="https://www.figma.com/proto/WYphTeBNsptVn35FRgPr68/Spotify-Redesign-by-Shravani-Devke?node-id=27-107&t=7JOPadsbmF6vOBFA-1&scaling=contain&content-scaling=fixed&page-id=0%3A1" target="_blank">Prototype Link</a>.
+                            <br>
+                            <a href="https://www.figma.com/design/WYphTeBNsptVn35FRgPr68/Spotify-Redesign-by-Shravani-Devke?node-id=27-107&t=jyNVM6erH3Aa3CT6-1" target="_blank">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry --> 
+
+                <div class="column entry">
+                    <a href="./images/my works images/YourOutfit_v2.png" class="entry__link glightbox" data-glightbox="title: Your Outfit; description: .entry__desc-01">
+                        <div class="entry__thumb">
+                            <img src="./images/my works images/YourOutfit_v4.jpg" srcset="./images/my works images/YourOutfit_v2.png" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Your Outfit</h4>
+                            <div class="entry__cat">E-Commerce Website</div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-01">
+                        <p>
+                            Your Outfit is an e-commerce website dedicated to fashion enthusiasts. It features a visually appealing homepage with highlighted collections, intuitive navigation through product categories, personalized recommendations, and a streamlined cart interface for a seamless shopping experience.
+                        <a href="https://devkeshravani.github.io/YourOutfit/" target="_blank">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+            </div> <!-- folio entries -->
+
+
+            
+
+
+        <!-- # footer 
+        ================================================== -->
+        <footer id="footer" class="s-footer target-section">
+
+            <div class="row">
+                <div class="column lg-12">
+                    <div class="section-header light-on-dark" data-num="04">
+                        <h2 class="text-display-title">Get In Touch.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row s-footer__content">
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__about">                    
+                    <p class="attention-getter" style="text-align: justify;">
+                        Explore my work and feel free to reach out for any inquiries or further details. I'm happy to share more about my design projects and creative process.
+                    </p>               
+                </div> <!-- end section-footer__about -->
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
+                    <div class="row">
+                        <div class="column xl-4 lg-5 md-6 tab-12">
+                            <h5>Find Me on</h5>
+                            <ul class="link-list">
+                                
+                                <li><a href="https://www.instagram.com/shravanii__d/profilecard/?igsh=cW1rOTVkNHdxYTdh" target="_blank">Instagram</a></li>
+                                <li> <a href="https://www.linkedin.com/in/shravani-devke-1b35b4239/" target="_blank">LinkedIn</a></li>
+                                <li><a href="https://pin.it/1c5B4LeHn" target="_blank">Pinterest</a></li>
+                            </ul>
+                        </div>
+                        <div class="column xl-6 md-6 tab-12">
+                            <h5>Contact Me</h5>
+                            <ul class="link-list">
+                                <li><a href="mailto:#0">devke22shravani@gmail.com</a></li>
+                                <li><a href="tel:+1975432345">+91 7738172123</a></li>
+                            </ul> 
+                        </div>
+                    </div>                    
+                </div> <!-- end section-footer__site-links -->
+
+            </div> <!-- end section-footer__content -->
+
+
+            <div class="row s-footer__buttons">
+               
+                <div class="column xl-6 tab-12">
+                    <a href="mailto:#0" class="btn btn--primary btn--large u-fullwidth">Message Me</a>
+                </div>
+          
+                <div class="column xl-6 tab-12">                    
+                    <a href="./assets/cv.pdf" target="_blank" class="btn btn--stroke btn--large u-fullwidth">Get My CV</a>
+                </div>
+            
+            </div> <!-- end section-footer__buttons -->              
+            
+            <div class="row s-footer__bottom">
+                
+                <div class="column xl-6 lg-12">
+                    <ul class="s-footer__social social-list">
+                        <li>
+                            <a href="https://www.linkedin.com/in/shravani-devke-1b35b4239/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M4.98 3.5c0 1.09-.87 1.97-1.97 1.97C1.87 5.47 1 4.59 1 3.5 1 2.41 1.87 1.5 2.98 1.5c1.1 0 1.97.88 1.97 2zM1 20.5V8.75h3.5v11.75H1zM7.38 8.75h3.5v1.88h-.03c.49-.92 1.69-1.88 3.48-1.88 3.72 0 4.4 2.46 4.4 5.64v6.03H15v-5.43c0-1.29-.02-2.94-1.78-2.94-1.79 0-2.06 1.41-2.06 2.87v5.5h-3.5V8.75z"></path></svg>
+                                <span class="u-screen-reader-text">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/shravanii__d/profilecard/?igsh=cW1rOTVkNHdxYTdh" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+                                    <path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path>
+                                    <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                                    <path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path>
+                                </svg>
+                                <span class="u-screen-reader-text">Instagram</span>
+                            </a>
+                        </li>
+                       
+                        
+                        <li>
+                            <a href="https://github.com/devkeshravani" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.16 6.84 9.47.5.09.68-.22.68-.49v-1.74c-2.76.6-3.34-1.33-3.34-1.33-.45-1.14-1.1-1.45-1.1-1.45-.91-.62.07-.61.07-.61.99.07 1.52 1.01 1.52 1.01 1.12 1.91 2.94 1.36 3.66 1.04 0.11-.81.43-1.36.78-1.67-2.14-.25-4.38-1.07-4.38-4.75 0-1.05.37-1.92.98-2.59-.1-.26-.43-1.27.09-2.64 0 0 .8-.26 2.63 1.01.76-.21 1.57-.31 2.38-.31 0.81 0 1.62.1 2.38.31 1.83-1.27 2.63-1.01 2.63-1.01.52 1.37.2 2.38.09 2.64.61.67.98 1.54.98 2.59 0 3.69-2.24 4.49-4.38 4.75.45.39.84 1.14.84 2.29v3.41c0 .27.18.58.69.48 3.97-1.31 6.84-5.04 6.84-9.47 0-5.52-4.48-10-10-10z"></path></svg>
+                                <span class="u-screen-reader-text">GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://pin.it/1c5B4LeHn" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.99 2C6.472 2 2 6.473 2 11.99c0 4.232 2.633 7.85 6.35 9.306-.088-.79-.166-2.006.034-2.868.182-.78 1.172-4.966 1.172-4.966s-.299-.599-.299-1.484c0-1.388.805-2.425 1.808-2.425.853 0 1.264.64 1.264 1.407 0 .858-.546 2.139-.827 3.327-.235.994.499 1.805 1.479 1.805 1.775 0 3.141-1.872 3.141-4.575 0-2.392-1.719-4.064-4.173-4.064-2.843 0-4.512 2.132-4.512 4.335 0 .858.331 1.779.744 2.28a.3.3 0 0 1 .069.286c-.076.315-.245.994-.277 1.133-.044.183-.145.222-.335.134-1.247-.581-2.027-2.405-2.027-3.871 0-3.151 2.289-6.045 6.601-6.045 3.466 0 6.159 2.469 6.159 5.77 0 3.444-2.171 6.213-5.184 6.213-1.013 0-1.964-.525-2.29-1.146l-.623 2.374c-.225.868-.834 1.956-1.241 2.62a10 10 0 0 0 2.958.445c5.517 0 9.99-4.473 9.99-9.99S17.507 2 11.99 2"></path></svg>
+                                <span class="u-screen-reader-text">Pinterest</span>
+                            </a>
+                        </li>
+                    </ul> 
+                </div> <!-- end section-footer__social -->
+
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>© Copyright Shravani Devke 2023</span> 
+                        <span>Portfolio of <a href="">Shravani Devke</a> </span>
+                    </p>
+                </div>
+
+            </div> <!-- end section-footer__bottom -->          
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">                 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path></svg>
+                </a>                                
+                <span>Back To Top</span>   
+            </div> <!-- end ss-go-top -->
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
